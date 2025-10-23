@@ -96,14 +96,14 @@ importers:
         specifier: ^3.13.0
         version: 3.13.0
       '@takumi-rs/core':
-        specifier: ^0.37.0
-        version: 0.37.0
+        specifier: ^0.38.0
+        version: 0.38.0
       '@takumi-rs/helpers':
-        specifier: ^0.37.0
-        version: 0.37.0
+        specifier: ^0.38.0
+        version: 0.38.0
       '@takumi-rs/image-response':
-        specifier: ^0.37.0
-        version: 0.37.0(@takumi-rs/core@0.37.0)(@takumi-rs/helpers@0.37.0)
+        specifier: ^0.38.0
+        version: 0.38.0(@takumi-rs/core@0.38.0)(@takumi-rs/helpers@0.38.0)
       ai:
         specifier: ^5.0.76
         version: 5.0.76(zod@4.1.12)
@@ -256,8 +256,8 @@ importers:
         specifier: ^19.2.2
         version: 19.2.2(@types/react@19.2.2)
       algoliasearch:
-        specifier: 5.40.1
-        version: 5.40.1
+        specifier: 5.41.0
+        version: 5.41.0
       browserslist-config-baseline:
         specifier: ^0.5.0
         version: 0.5.0
@@ -1541,8 +1541,8 @@ importers:
         specifier: ^19.2.2
         version: 19.2.2(@types/react@19.2.2)
       algoliasearch:
-        specifier: 5.40.1
-        version: 5.40.1
+        specifier: 5.41.0
+        version: 5.41.0
       eslint-config-custom:
         specifier: workspace:*
         version: link:../eslint-config-custom
@@ -2478,60 +2478,60 @@ packages:
       zod:
         optional: true
 
-  '@algolia/abtesting@1.6.1':
-    resolution: {integrity: sha512-wV/gNRkzb7sI9vs1OneG129hwe3Q5zPj7zigz3Ps7M5Lpo2hSorrOnXNodHEOV+yXE/ks4Pd+G3CDFIjFTWhMQ==}
+  '@algolia/abtesting@1.7.0':
+    resolution: {integrity: sha512-hOEItTFOvNLI6QX6TSGu7VE4XcUcdoKZT8NwDY+5mWwu87rGhkjlY7uesKTInlg6Sh8cyRkDBYRumxbkoBbBhA==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-abtesting@5.40.1':
-    resolution: {integrity: sha512-cxKNATPY5t+Mv8XAVTI57altkaPH+DZi4uMrnexPxPHODMljhGYY+GDZyHwv9a+8CbZHcY372OkxXrDMZA4Lnw==}
+  '@algolia/client-abtesting@5.41.0':
+    resolution: {integrity: sha512-iRuvbEyuHCAhIMkyzG3tfINLxTS7mSKo7q8mQF+FbQpWenlAlrXnfZTN19LRwnVjx0UtAdZq96ThMWGS6cQ61A==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-analytics@5.40.1':
-    resolution: {integrity: sha512-XP008aMffJCRGAY8/70t+hyEyvqqV7YKm502VPu0+Ji30oefrTn2al7LXkITz7CK6I4eYXWRhN6NaIUi65F1OA==}
+  '@algolia/client-analytics@5.41.0':
+    resolution: {integrity: sha512-OIPVbGfx/AO8l1V70xYTPSeTt/GCXPEl6vQICLAXLCk9WOUbcLGcy6t8qv0rO7Z7/M/h9afY6Af8JcnI+FBFdQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-common@5.40.1':
-    resolution: {integrity: sha512-gWfQuQUBtzUboJv/apVGZMoxSaB0M4Imwl1c9Ap+HpCW7V0KhjBddqF2QQt5tJZCOFsfNIgBbZDGsEPaeKUosw==}
+  '@algolia/client-common@5.41.0':
+    resolution: {integrity: sha512-8Mc9niJvfuO8dudWN5vSUlYkz7U3M3X3m1crDLc9N7FZrIVoNGOUETPk3TTHviJIh9y6eKZKbq1hPGoGY9fqPA==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-insights@5.40.1':
-    resolution: {integrity: sha512-RTLjST/t+lsLMouQ4zeLJq2Ss+UNkLGyNVu+yWHanx6kQ3LT5jv8UvPwyht9s7R6jCPnlSI77WnL80J32ZuyJg==}
+  '@algolia/client-insights@5.41.0':
+    resolution: {integrity: sha512-vXzvCGZS6Ixxn+WyzGUVDeR3HO/QO5POeeWy1kjNJbEf6f+tZSI+OiIU9Ha+T3ntV8oXFyBEuweygw4OLmgfiQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-personalization@5.40.1':
-    resolution: {integrity: sha512-2FEK6bUomBzEYkTKzD0iRs7Ljtjb45rKK/VSkyHqeJnG+77qx557IeSO0qVFE3SfzapNcoytTofnZum0BQ6r3Q==}
+  '@algolia/client-personalization@5.41.0':
+    resolution: {integrity: sha512-tkymXhmlcc7w/HEvLRiHcpHxLFcUB+0PnE9FcG6hfFZ1ZXiWabH+sX+uukCVnluyhfysU9HRU2kUmUWfucx1Dg==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-query-suggestions@5.40.1':
-    resolution: {integrity: sha512-Nju4NtxAvXjrV2hHZNLKVJLXjOlW6jAXHef/CwNzk1b2qIrCWDO589ELi5ZHH1uiWYoYyBXDQTtHmhaOVVoyXg==}
+  '@algolia/client-query-suggestions@5.41.0':
+    resolution: {integrity: sha512-vyXDoz3kEZnosNeVQQwf0PbBt5IZJoHkozKRIsYfEVm+ylwSDFCW08qy2YIVSHdKy69/rWN6Ue/6W29GgVlmKQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-search@5.40.1':
-    resolution: {integrity: sha512-Mw6pAUF121MfngQtcUb5quZVqMC68pSYYjCRZkSITC085S3zdk+h/g7i6FxnVdbSU6OztxikSDMh1r7Z+4iPlA==}
+  '@algolia/client-search@5.41.0':
+    resolution: {integrity: sha512-G9I2atg1ShtFp0t7zwleP6aPS4DcZvsV4uoQOripp16aR6VJzbEnKFPLW4OFXzX7avgZSpYeBAS+Zx4FOgmpPw==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/ingestion@1.40.1':
-    resolution: {integrity: sha512-z+BPlhs45VURKJIxsR99NNBWpUEEqIgwt10v/fATlNxc4UlXvALdOsWzaFfe89/lbP5Bu4+mbO59nqBC87ZM/g==}
+  '@algolia/ingestion@1.41.0':
+    resolution: {integrity: sha512-sxU/ggHbZtmrYzTkueTXXNyifn+ozsLP+Wi9S2hOBVhNWPZ8uRiDTDcFyL7cpCs1q72HxPuhzTP5vn4sUl74cQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/monitoring@1.40.1':
-    resolution: {integrity: sha512-VJMUMbO0wD8Rd2VVV/nlFtLJsOAQvjnVNGkMkspFiFhpBA7s/xJOb+fJvvqwKFUjbKTUA7DjiSi1ljSMYBasXg==}
+  '@algolia/monitoring@1.41.0':
+    resolution: {integrity: sha512-UQ86R6ixraHUpd0hn4vjgTHbViNO8+wA979gJmSIsRI3yli2v89QSFF/9pPcADR6PbtSio/99PmSNxhZy+CR3Q==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/recommend@5.40.1':
-    resolution: {integrity: sha512-ehvJLadKVwTp9Scg9NfzVSlBKH34KoWOQNTaN8i1Ac64AnO6iH2apJVSP6GOxssaghZ/s8mFQsDH3QIZoluFHA==}
+  '@algolia/recommend@5.41.0':
+    resolution: {integrity: sha512-DxP9P8jJ8whJOnvmyA5mf1wv14jPuI0L25itGfOHSU6d4ZAjduVfPjTS3ROuUN5CJoTdlidYZE+DtfWHxJwyzQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-browser-xhr@5.40.1':
-    resolution: {integrity: sha512-PbidVsPurUSQIr6X9/7s34mgOMdJnn0i6p+N6Ab+lsNhY5eiu+S33kZEpZwkITYBCIbhzDLOvb7xZD3gDi+USA==}
+  '@algolia/requester-browser-xhr@5.41.0':
+    resolution: {integrity: sha512-C21J+LYkE48fDwtLX7YXZd2Fn7Fe0/DOEtvohSfr/ODP8dGDhy9faaYeWB0n1AvmZltugjkjAXT7xk0CYNIXsQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-fetch@5.40.1':
-    resolution: {integrity: sha512-ThZ5j6uOZCF11fMw9IBkhigjOYdXGXQpj6h4k+T9UkZrF2RlKcPynFzDeRgaLdpYk8Yn3/MnFbwUmib7yxj5Lw==}
+  '@algolia/requester-fetch@5.41.0':
+    resolution: {integrity: sha512-FhJy/+QJhMx1Hajf2LL8og4J7SqOAHiAuUXq27cct4QnPhSIuIGROzeRpfDNH5BUbq22UlMuGd44SeD4HRAqvA==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-node-http@5.40.1':
-    resolution: {integrity: sha512-H1gYPojO6krWHnUXu/T44DrEun/Wl95PJzMXRcM/szstNQczSbwq6wIFJPI9nyE95tarZfUNU3rgorT+wZ6iCQ==}
+  '@algolia/requester-node-http@5.41.0':
+    resolution: {integrity: sha512-tYv3rGbhBS0eZ5D8oCgV88iuWILROiemk+tQ3YsAKZv2J4kKUNvKkrX/If/SreRy4MGP2uJzMlyKcfSfO2mrsQ==}
     engines: {node: '>= 14.0.0'}
 
   '@alloc/quick-lru@5.2.0':
@@ -5224,66 +5224,66 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7
 
-  '@takumi-rs/core-darwin-arm64@0.37.0':
-    resolution: {integrity: sha512-umuAwCrW85q0THEHK4/HeIcb3WTZqeqNeOVlQOyiZpiR59V/wqrCnZgJbC5HIESEQzEXRRHfcj2AkOlQflafKw==}
+  '@takumi-rs/core-darwin-arm64@0.38.0':
+    resolution: {integrity: sha512-s8RznB0t7VCBK/XyILUXDLc7FDwnd9vHlAiOoOiuNTr9HjfhYJyKMHnUevai3jwdYVpAnuQE4EgYlnDB/wf7Ag==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [arm64]
     os: [darwin]
 
-  '@takumi-rs/core-darwin-x64@0.37.0':
-    resolution: {integrity: sha512-aHTvY0GWf/TmoESQLQHmqgpkWgojTGSnPwwFDlwXb/GWpoKvxCIu+blvDNKRYQkhZ20D+E1HLclrVfHNdv9IZw==}
+  '@takumi-rs/core-darwin-x64@0.38.0':
+    resolution: {integrity: sha512-FebD7c6jjpXbv3fWYSDWcXqJezg+vcWK4uzioxu64jhcaaX9qwryAYnvcH5EaED9bg3OgNlKhZjk+V/kViULYg==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [x64]
     os: [darwin]
 
-  '@takumi-rs/core-linux-arm64-gnu@0.37.0':
-    resolution: {integrity: sha512-5HZz7WxT2G7wNoLChoHcsCwM7LjQtjtegXwrcC1h8PTms45qvthcNus4h+4w9V17nnqVpfugb4mRJOmgSn4POA==}
+  '@takumi-rs/core-linux-arm64-gnu@0.38.0':
+    resolution: {integrity: sha512-NDyHph98MFPcojtBe6sqiQcQ2wnvG22yBIW81qvsLwcKOhCzPDjGovVV4W/GWLher4uUFKXGFzS155dabLipbw==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [arm64]
     os: [linux]
 
-  '@takumi-rs/core-linux-arm64-musl@0.37.0':
-    resolution: {integrity: sha512-F1U+E07KCSOE0KYUX8w3qyTHWwH8FCwTq9dh8oRltUkz38qDkRzPeUUxuU8UIpSVIQMpI23FYU6ESB7LJ7pQnw==}
+  '@takumi-rs/core-linux-arm64-musl@0.38.0':
+    resolution: {integrity: sha512-eTF/PHfMtL+UVi3ieo0I/anI7zVwUXqC+8F2YP7pOfg4pwH7nHKuXInym//+8YesnrDR07BpGN48B2rVMgydMA==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [arm64]
     os: [linux]
 
-  '@takumi-rs/core-linux-x64-gnu@0.37.0':
-    resolution: {integrity: sha512-l1arJPGxY1tbb6SR7i9/FKkP1nMbNGD+JabevX6mIs/7kWdp3H58uBwIiAMtr/bQq5PXpuiNjBCUd38MAFdmCg==}
+  '@takumi-rs/core-linux-x64-gnu@0.38.0':
+    resolution: {integrity: sha512-UKHZGHyUhXDVOeObl6jfr+4QCAVP03OeF8qMyzKxoumhhNhZ/H/xsfa0bl+JUT6KwmeO10/KRJZ5R5jdqmBuCw==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@takumi-rs/core-linux-x64-musl@0.37.0':
-    resolution: {integrity: sha512-KjaZ6L2DGzrg/5ELQxU/iqGfmaJ1r5kTSIIzSEOwVXgeo8To6CdNX3pBR0JIsltJCcgnlhxU50w1umo5FkJR8Q==}
+  '@takumi-rs/core-linux-x64-musl@0.38.0':
+    resolution: {integrity: sha512-mPpWwQCe9QePF7R4aytYXFLj97qfBG82YYZ2crLdb9jYIOJRGYGaja6iO7mFwE5TubPMdzSXWjjtUvIRlGI5/A==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [x64]
     os: [linux]
 
-  '@takumi-rs/core-win32-arm64-msvc@0.37.0':
-    resolution: {integrity: sha512-8xvXFnl2CoKHsgLLkD3lXwPlhlXURlelv7H0q4pOzIkZKpNItojvfAKZhnyU7SBBsGrDqd2/zW0FKdsNOeJKgg==}
+  '@takumi-rs/core-win32-arm64-msvc@0.38.0':
+    resolution: {integrity: sha512-kHZDVwH/5eqOEeS+kwd800vaYi5uNXWtQP59Vo831SBVeZBTkzemb21lsRNqjXYH9sQZGANKY6kYgrH/+Bf4Eg==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [arm64]
     os: [win32]
 
-  '@takumi-rs/core-win32-x64-msvc@0.37.0':
-    resolution: {integrity: sha512-8EMqMOhMvAlQjEt1tcxFtJ+bg2epnFr4D+UMegERKHNYfxcM+AHMifEoGWYStaCbxyATNb1T3rhtkp/0r0wlMA==}
+  '@takumi-rs/core-win32-x64-msvc@0.38.0':
+    resolution: {integrity: sha512-9+I4kDaX2KaJGhPeTW02DGvjvkWN5pupLnwdFpbA4Rv4i6KQV1F/5lPXgn7Wa53pVaFJMv1k6gN3zqyijuqnCQ==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
     cpu: [x64]
     os: [win32]
 
-  '@takumi-rs/core@0.37.0':
-    resolution: {integrity: sha512-MiDeRJpnAKrMqMQ7SK3j3bs3xXp2IxZ2Ue/DC38l2FRlqO18oEcBSZJzYjyQcVuBn/5mR5GXoixyFYqKP0ThaQ==}
+  '@takumi-rs/core@0.38.0':
+    resolution: {integrity: sha512-ozcwPCIqu2kwkKKbsS7dhYlH2JAu1PFD7b+CiqT9O0lD4QDI6ZnVJPG27DFLdZ2rYIgw+9anSukZFV8+C+Dgvg==}
     engines: {node: '>= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0'}
 
-  '@takumi-rs/helpers@0.37.0':
-    resolution: {integrity: sha512-uYFCkTFGYt0ihvyoYvXLUepcjxx3rb4C9YEBt/qn8xttV1TYD6PSV89xUaijVAqyyigg9in6QB0EcD3uVE7+MQ==}
+  '@takumi-rs/helpers@0.38.0':
+    resolution: {integrity: sha512-4gOIQWlbyeEI82t8Jcieap28DRZRHBElkyA/sAysCuWKJ0mJDjP15fsScWmolzdimCwG0Uhj4wo7WaAa7U3kIA==}
 
-  '@takumi-rs/image-response@0.37.0':
-    resolution: {integrity: sha512-9SDODHtj+kitPjQR7JdEbCex/4u0bGhaeZcr0FI7nCOpMiWGUuP9fy/b1EeHsmA9wX7z7MPACBUcI2/TsNiOUA==}
+  '@takumi-rs/image-response@0.38.0':
+    resolution: {integrity: sha512-fLAySrpShgipW8MO4wot6GbnT9uRvgPSvLlqlMUj6LpSXqrEH3QsxmvwmZNtxTEBYnXuEqLxQck2DCxj+3hlQg==}
     peerDependencies:
-      '@takumi-rs/core': 0.37.0
-      '@takumi-rs/helpers': 0.37.0
+      '@takumi-rs/core': 0.38.0
+      '@takumi-rs/helpers': 0.38.0
 
   '@tanstack/directive-functions-plugin@1.133.19':
     resolution: {integrity: sha512-U6nBlxxc624Q7Yta3UUe805WJfi0R029N/vUOVNxggZ432nt+0Hx7gLQO2P9zIUt+N6VYPuyKLKq047bxCJWOw==}
@@ -6078,8 +6078,8 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  algoliasearch@5.40.1:
-    resolution: {integrity: sha512-iUNxcXUNg9085TJx0HJLjqtDE0r1RZ0GOGrt8KNQqQT5ugu8lZsHuMUYW/e0lHhq6xBvmktU9Bw4CXP9VQeKrg==}
+  algoliasearch@5.41.0:
+    resolution: {integrity: sha512-9E4b3rJmYbBkn7e3aAPt1as+VVnRhsR4qwRRgOzpeyz4PAOuwKh0HI4AN6mTrqK0S0M9fCCSTOUnuJ8gPY/tvA==}
     engines: {node: '>= 14.0.0'}
 
   ansi-align@3.0.1:
@@ -11510,89 +11510,89 @@ snapshots:
     optionalDependencies:
       zod: 4.1.12
 
-  '@algolia/abtesting@1.6.1':
+  '@algolia/abtesting@1.7.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/client-abtesting@5.40.1':
+  '@algolia/client-abtesting@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/client-analytics@5.40.1':
+  '@algolia/client-analytics@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/client-common@5.40.1': {}
+  '@algolia/client-common@5.41.0': {}
 
-  '@algolia/client-insights@5.40.1':
+  '@algolia/client-insights@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/client-personalization@5.40.1':
+  '@algolia/client-personalization@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/client-query-suggestions@5.40.1':
+  '@algolia/client-query-suggestions@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/client-search@5.40.1':
+  '@algolia/client-search@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/ingestion@1.40.1':
+  '@algolia/ingestion@1.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/monitoring@1.40.1':
+  '@algolia/monitoring@1.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/recommend@5.40.1':
+  '@algolia/recommend@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/client-common': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
-  '@algolia/requester-browser-xhr@5.40.1':
+  '@algolia/requester-browser-xhr@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
+      '@algolia/client-common': 5.41.0
 
-  '@algolia/requester-fetch@5.40.1':
+  '@algolia/requester-fetch@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
+      '@algolia/client-common': 5.41.0
 
-  '@algolia/requester-node-http@5.40.1':
+  '@algolia/requester-node-http@5.41.0':
     dependencies:
-      '@algolia/client-common': 5.40.1
+      '@algolia/client-common': 5.41.0
 
   '@alloc/quick-lru@5.2.0': {}
 
@@ -14618,47 +14618,47 @@ snapshots:
       tailwindcss: 4.1.15
       vite: 7.1.11(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(tsx@4.20.6)(yaml@2.8.1)
 
-  '@takumi-rs/core-darwin-arm64@0.37.0':
+  '@takumi-rs/core-darwin-arm64@0.38.0':
     optional: true
 
-  '@takumi-rs/core-darwin-x64@0.37.0':
+  '@takumi-rs/core-darwin-x64@0.38.0':
     optional: true
 
-  '@takumi-rs/core-linux-arm64-gnu@0.37.0':
+  '@takumi-rs/core-linux-arm64-gnu@0.38.0':
     optional: true
 
-  '@takumi-rs/core-linux-arm64-musl@0.37.0':
+  '@takumi-rs/core-linux-arm64-musl@0.38.0':
     optional: true
 
-  '@takumi-rs/core-linux-x64-gnu@0.37.0':
+  '@takumi-rs/core-linux-x64-gnu@0.38.0':
     optional: true
 
-  '@takumi-rs/core-linux-x64-musl@0.37.0':
+  '@takumi-rs/core-linux-x64-musl@0.38.0':
     optional: true
 
-  '@takumi-rs/core-win32-arm64-msvc@0.37.0':
+  '@takumi-rs/core-win32-arm64-msvc@0.38.0':
     optional: true
 
-  '@takumi-rs/core-win32-x64-msvc@0.37.0':
+  '@takumi-rs/core-win32-x64-msvc@0.38.0':
     optional: true
 
-  '@takumi-rs/core@0.37.0':
+  '@takumi-rs/core@0.38.0':
     optionalDependencies:
-      '@takumi-rs/core-darwin-arm64': 0.37.0
-      '@takumi-rs/core-darwin-x64': 0.37.0
-      '@takumi-rs/core-linux-arm64-gnu': 0.37.0
-      '@takumi-rs/core-linux-arm64-musl': 0.37.0
-      '@takumi-rs/core-linux-x64-gnu': 0.37.0
-      '@takumi-rs/core-linux-x64-musl': 0.37.0
-      '@takumi-rs/core-win32-arm64-msvc': 0.37.0
-      '@takumi-rs/core-win32-x64-msvc': 0.37.0
+      '@takumi-rs/core-darwin-arm64': 0.38.0
+      '@takumi-rs/core-darwin-x64': 0.38.0
+      '@takumi-rs/core-linux-arm64-gnu': 0.38.0
+      '@takumi-rs/core-linux-arm64-musl': 0.38.0
+      '@takumi-rs/core-linux-x64-gnu': 0.38.0
+      '@takumi-rs/core-linux-x64-musl': 0.38.0
+      '@takumi-rs/core-win32-arm64-msvc': 0.38.0
+      '@takumi-rs/core-win32-x64-msvc': 0.38.0
 
-  '@takumi-rs/helpers@0.37.0': {}
+  '@takumi-rs/helpers@0.38.0': {}
 
-  '@takumi-rs/image-response@0.37.0(@takumi-rs/core@0.37.0)(@takumi-rs/helpers@0.37.0)':
+  '@takumi-rs/image-response@0.38.0(@takumi-rs/core@0.38.0)(@takumi-rs/helpers@0.38.0)':
     dependencies:
-      '@takumi-rs/core': 0.37.0
-      '@takumi-rs/helpers': 0.37.0
+      '@takumi-rs/core': 0.38.0
+      '@takumi-rs/helpers': 0.38.0
 
   '@tanstack/directive-functions-plugin@1.133.19(vite@7.1.11(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(tsx@4.20.6)(yaml@2.8.1))':
     dependencies:
@@ -15745,22 +15745,22 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  algoliasearch@5.40.1:
+  algoliasearch@5.41.0:
     dependencies:
-      '@algolia/abtesting': 1.6.1
-      '@algolia/client-abtesting': 5.40.1
-      '@algolia/client-analytics': 5.40.1
-      '@algolia/client-common': 5.40.1
-      '@algolia/client-insights': 5.40.1
-      '@algolia/client-personalization': 5.40.1
-      '@algolia/client-query-suggestions': 5.40.1
-      '@algolia/client-search': 5.40.1
-      '@algolia/ingestion': 1.40.1
-      '@algolia/monitoring': 1.40.1
-      '@algolia/recommend': 5.40.1
-      '@algolia/requester-browser-xhr': 5.40.1
-      '@algolia/requester-fetch': 5.40.1
-      '@algolia/requester-node-http': 5.40.1
+      '@algolia/abtesting': 1.7.0
+      '@algolia/client-abtesting': 5.41.0
+      '@algolia/client-analytics': 5.41.0
+      '@algolia/client-common': 5.41.0
+      '@algolia/client-insights': 5.41.0
+      '@algolia/client-personalization': 5.41.0
+      '@algolia/client-query-suggestions': 5.41.0
+      '@algolia/client-search': 5.41.0
+      '@algolia/ingestion': 1.41.0
+      '@algolia/monitoring': 1.41.0
+      '@algolia/recommend': 5.41.0
+      '@algolia/requester-browser-xhr': 5.41.0
+      '@algolia/requester-fetch': 5.41.0
+      '@algolia/requester-node-http': 5.41.0
 
   ansi-align@3.0.1:
     dependencies:
